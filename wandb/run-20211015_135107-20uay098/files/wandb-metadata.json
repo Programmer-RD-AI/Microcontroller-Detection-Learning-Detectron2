@@ -1,0 +1,20 @@
+{
+    "os": "Linux-5.11.0-37-generic-x86_64-with-glibc2.17",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-10-15T08:21:09.534935",
+    "startedAt": "2021-10-15T08:21:07.771800",
+    "docker": null,
+    "gpu": "GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/indika/.local/share/jupyter/runtime/kernel-0c583e96-df36-49bb-9b37-09a86ed57d79.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "programmer-rd-ai",
+    "username": "indika",
+    "executable": "/home/indika/anaconda3/envs/myenv/bin/python"
+}

@@ -1,0 +1,17 @@
+2021-10-15 13:50:29,606 INFO    MainThread:19264 [wandb_init.py:_log_setup():307] Logging user logs to wandb/run-20211015_135029-2anfhvz9/logs/debug.log
+2021-10-15 13:50:29,607 INFO    MainThread:19264 [wandb_init.py:_log_setup():308] Logging internal logs to wandb/run-20211015_135029-2anfhvz9/logs/debug-internal.log
+2021-10-15 13:50:29,607 INFO    MainThread:19264 [wandb_setup.py:_flush():68] enabling code saving by default
+2021-10-15 13:50:29,607 INFO    MainThread:19264 [wandb_setup.py:_flush():68] setting env: {}
+2021-10-15 13:50:29,607 INFO    MainThread:19264 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2021-10-15 13:50:29,607 WARNING MainThread:19264 [wandb_setup.py:_flush():68] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-15 13:50:29,607 INFO    MainThread:19264 [wandb_setup.py:_flush():68] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fef523bcf10>
+2021-10-15 13:50:29,631 WARNING MainThread:19264 [wandb_setup.py:__init__():213] Ignoring settings passed to wandb.setup() which has already been configured.
+2021-10-15 13:50:31,610 INFO    MainThread:19264 [wandb_run.py:_console_start():1103] atexit reg
+2021-10-15 13:50:31,615 INFO    MainThread:19264 [wandb_run.py:_redirect():978] redirect: SettingsConsole.WRAP
+2021-10-15 13:50:31,615 INFO    MainThread:19264 [wandb_run.py:_redirect():1009] Wrapping output streams.
+2021-10-15 13:50:31,615 INFO    MainThread:19264 [wandb_run.py:_redirect():1025] Redirects installed.
+2021-10-15 13:50:55,244 INFO    MainThread:19264 [wandb_init.py:_pause_backend():229] pausing backend
+2021-10-15 13:51:02,541 INFO    MainThread:19264 [wandb_run.py:_atexit_cleanup():1081] got exitcode: 0
+2021-10-15 13:51:02,541 INFO    MainThread:19264 [wandb_run.py:_restore():1053] restore
+2021-10-15 13:51:02,543 INFO    MainThread:19264 [wandb_run.py:_restore():1053] restore
+2021-10-15 13:51:02,549 INFO    MainThread:19264 [internal.py:handle_exit():137] Internal process exited

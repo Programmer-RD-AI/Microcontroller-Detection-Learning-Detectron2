@@ -1,0 +1,153 @@
+2021-10-15 13:50:30,043 INFO    MainThread:19749 [internal.py:wandb_internal():62] W&B internal server running at pid: 19749
+2021-10-15 13:50:30,045 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: request
+2021-10-15 13:50:30,045 DEBUG   HandlerThread:19749 [handler.py:handle_request():56] handle_request: login
+2021-10-15 13:50:30,046 DEBUG   SenderThread:19749 [sender.py:send():89] send: request
+2021-10-15 13:50:30,051 DEBUG   SenderThread:19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:30,510 DEBUG   SenderThread:19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:30,511 INFO    SenderThread:19749 [sender.py:send_request_login():135] Login server info: {'cliVersionInfo': {'min_cli_version': '0.8.20', 'max_cli_version': '0.12.4'}}
+2021-10-15 13:50:30,521 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: header
+2021-10-15 13:50:30,521 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: request
+2021-10-15 13:50:30,521 DEBUG   SenderThread:19749 [sender.py:send():89] send: header
+2021-10-15 13:50:30,521 DEBUG   HandlerThread:19749 [handler.py:handle_request():56] handle_request: check_version
+2021-10-15 13:50:30,521 INFO    WriterThread:19749 [datastore.py:open_for_write():76] open: wandb/run-20211015_135029-2anfhvz9/run-2anfhvz9.wandb
+2021-10-15 13:50:30,524 DEBUG   HandlerThread:19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): pypi.org:443
+2021-10-15 13:50:30,871 DEBUG   HandlerThread:19749 [connectionpool.py:_make_request():452] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 60763
+2021-10-15 13:50:30,968 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: run
+2021-10-15 13:50:30,968 DEBUG   SenderThread:19749 [sender.py:send():89] send: run
+2021-10-15 13:50:30,970 DEBUG   SenderThread:19749 [git.py:repo():30] git repository is invalid
+2021-10-15 13:50:30,977 DEBUG   SenderThread:19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:31,495 DEBUG   SenderThread:19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:31,499 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: request
+2021-10-15 13:50:31,499 DEBUG   HandlerThread:19749 [handler.py:handle_request():56] handle_request: run_start
+2021-10-15 13:50:31,501 INFO    SenderThread:19749 [dir_watcher.py:__init__():149] watching files in: wandb/run-20211015_135029-2anfhvz9/files
+2021-10-15 13:50:31,501 INFO    SenderThread:19749 [sender.py:send_run():414] run started: 2anfhvz9 with start time 1634286030
+2021-10-15 13:50:31,508 DEBUG   HandlerThread:19749 [git.py:repo():30] git repository is invalid
+2021-10-15 13:50:31,606 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: files
+2021-10-15 13:50:31,607 DEBUG   SenderThread:19749 [sender.py:send():89] send: files
+2021-10-15 13:50:31,607 INFO    SenderThread:19749 [sender.py:_save_file():495] saving file wandb-metadata.json with policy now
+2021-10-15 13:50:31,612 DEBUG   Thread-10 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:31,614 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: request
+2021-10-15 13:50:31,614 DEBUG   HandlerThread:19749 [handler.py:handle_request():56] handle_request: status
+2021-10-15 13:50:31,614 DEBUG   SenderThread:19749 [sender.py:send():89] send: request
+2021-10-15 13:50:31,616 DEBUG   SenderThread:19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:32,110 DEBUG   SenderThread:19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:32,120 DEBUG   Thread-10 :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:32,127 DEBUG   Thread-10 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-15 13:50:32,502 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_created():188] file/dir created: wandb/run-20211015_135029-2anfhvz9/files/wandb-metadata.json
+2021-10-15 13:50:32,502 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_created():188] file/dir created: wandb/run-20211015_135029-2anfhvz9/files/output.log
+2021-10-15 13:50:32,503 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_created():188] file/dir created: wandb/run-20211015_135029-2anfhvz9/files/requirements.txt
+2021-10-15 13:50:32,805 DEBUG   Thread-10 :19749 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/wandb-metadata.json?Expires=1634372431&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Hn0Q%2FgsYsoIp2nxWObcLYV%2FCnrVkVpoUcDKokqZZgP%2BvqUTc5gytaCbhFEpJ24B2jX21v7o1yCLkbP9E%2FLjyGxddUWD7M%2BzDIHlfY%2FsgoUg8U2v%2F8cskF%2Bj2dSwuJDxiKXrvapQbT1SiXLHVnP4QOpCfojO2KowttnrIlTZJR9%2FSGae7JE6UOZ0u5yjjL4QQYySZWe640mQsX9MQO%2BLi3G64MpXIWZuQvovQqh6c9FetDvePgDZDfKyqqqH6Dst7DekUhqNHRAWOw8pTAt5M8E6GfTgM7D7sqQ9J4UdDwucF9lKju7dHZELJETYkRx2gK9QZ3RehJLwq%2BytOVpKNFQ%3D%3D HTTP/1.1" 200 0
+2021-10-15 13:50:32,807 INFO    Thread-10 :19749 [upload_job.py:push():112] Uploaded file /tmp/tmpnbhv7l8kwandb/4186wl5l-wandb-metadata.json
+2021-10-15 13:50:34,919 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,920 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,924 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,924 DEBUG   Thread-4  :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:34,924 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,924 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,925 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,925 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,926 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,950 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,950 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,951 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,951 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,951 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,952 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,952 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,957 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,963 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,967 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,967 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,968 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,968 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,968 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,968 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,973 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:34,974 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,974 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:34,979 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: stats
+2021-10-15 13:50:34,980 DEBUG   SenderThread:19749 [sender.py:send():89] send: stats
+2021-10-15 13:50:35,502 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_modified():201] file/dir modified: wandb/run-20211015_135029-2anfhvz9/files/output.log
+2021-10-15 13:50:35,661 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:35,914 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:35,915 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:35,915 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:35,915 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:35,916 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:35,916 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:35,916 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:35,917 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:35,919 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:35,919 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:35,920 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:35,920 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:35,920 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:35,921 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:36,503 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_modified():201] file/dir modified: wandb/run-20211015_135029-2anfhvz9/files/output.log
+2021-10-15 13:50:38,266 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:39,447 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: stats
+2021-10-15 13:50:39,447 DEBUG   SenderThread:19749 [sender.py:send():89] send: stats
+2021-10-15 13:50:41,756 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:43,905 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: stats
+2021-10-15 13:50:43,905 DEBUG   SenderThread:19749 [sender.py:send():89] send: stats
+2021-10-15 13:50:44,206 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:44,721 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:44,721 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:45,505 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_modified():201] file/dir modified: wandb/run-20211015_135029-2anfhvz9/files/output.log
+2021-10-15 13:50:47,052 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:47,115 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: request
+2021-10-15 13:50:47,115 DEBUG   HandlerThread:19749 [handler.py:handle_request():56] handle_request: status
+2021-10-15 13:50:47,115 DEBUG   SenderThread:19749 [sender.py:send():89] send: request
+2021-10-15 13:50:47,118 DEBUG   SenderThread:19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:47,572 DEBUG   SenderThread:19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:48,372 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: stats
+2021-10-15 13:50:48,372 DEBUG   SenderThread:19749 [sender.py:send():89] send: stats
+2021-10-15 13:50:50,702 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:52,836 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: stats
+2021-10-15 13:50:52,836 DEBUG   SenderThread:19749 [sender.py:send():89] send: stats
+2021-10-15 13:50:53,162 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:53,722 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:53,722 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:54,507 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_modified():201] file/dir modified: wandb/run-20211015_135029-2anfhvz9/files/output.log
+2021-10-15 13:50:54,947 WARNING MainThread:19749 [internal.py:wandb_internal():116] Internal process interrupt: 1
+2021-10-15 13:50:54,983 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:54,984 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:54,986 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:54,986 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:54,987 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:54,987 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:55,093 WARNING MainThread:19749 [internal.py:wandb_internal():116] Internal process interrupt: 2
+2021-10-15 13:50:55,093 ERROR   MainThread:19749 [internal.py:wandb_internal():119] Internal process interrupted.
+2021-10-15 13:50:55,094 DEBUG   HandlerThread:19749 [handler.py:handle():47] handle: output
+2021-10-15 13:50:55,094 INFO    HandlerThread:19749 [handler.py:finish():274] shutting down handler
+2021-10-15 13:50:55,094 DEBUG   SenderThread:19749 [sender.py:send():89] send: output
+2021-10-15 13:50:55,094 INFO    SenderThread:19749 [sender.py:finish():536] shutting down sender
+2021-10-15 13:50:55,094 INFO    SenderThread:19749 [dir_watcher.py:finish():253] shutting down directory watcher
+2021-10-15 13:50:55,094 INFO    WriterThread:19749 [datastore.py:close():257] close: wandb/run-20211015_135029-2anfhvz9/run-2anfhvz9.wandb
+2021-10-15 13:50:55,297 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:55,508 INFO    Thread-7  :19749 [dir_watcher.py:_on_file_modified():201] file/dir modified: wandb/run-20211015_135029-2anfhvz9/files/output.log
+2021-10-15 13:50:55,508 INFO    SenderThread:19749 [dir_watcher.py:finish():282] scan: wandb/run-20211015_135029-2anfhvz9/files
+2021-10-15 13:50:55,508 INFO    SenderThread:19749 [dir_watcher.py:finish():288] scan save: wandb/run-20211015_135029-2anfhvz9/files/config.yaml config.yaml
+2021-10-15 13:50:55,509 INFO    SenderThread:19749 [dir_watcher.py:finish():288] scan save: wandb/run-20211015_135029-2anfhvz9/files/requirements.txt requirements.txt
+2021-10-15 13:50:55,509 INFO    SenderThread:19749 [dir_watcher.py:finish():288] scan save: wandb/run-20211015_135029-2anfhvz9/files/output.log output.log
+2021-10-15 13:50:55,509 INFO    SenderThread:19749 [dir_watcher.py:finish():288] scan save: wandb/run-20211015_135029-2anfhvz9/files/wandb-metadata.json wandb-metadata.json
+2021-10-15 13:50:55,513 INFO    SenderThread:19749 [file_pusher.py:finish():139] shutting down file pusher
+2021-10-15 13:50:55,513 INFO    SenderThread:19749 [file_pusher.py:join():144] waiting for file pusher
+2021-10-15 13:50:55,513 DEBUG   Thread-11 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:55,525 DEBUG   Thread-12 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:55,526 DEBUG   Thread-13 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-10-15 13:50:56,077 DEBUG   Thread-12 :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:56,084 DEBUG   Thread-12 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-15 13:50:56,088 DEBUG   Thread-11 :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:56,089 DEBUG   Thread-13 :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-10-15 13:50:56,100 DEBUG   Thread-11 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-15 13:50:56,100 DEBUG   Thread-13 :19749 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-10-15 13:50:56,797 DEBUG   Thread-11 :19749 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/config.yaml?Expires=1634372455&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=fHqtKXNo2eirtN0KvMwB1fs1WIS%2BzhJc%2Faju%2Fq7x1%2F%2F3bbCwdDmFdvFG48TFFFy5kfVwUHgn0pAmJow6ok8miZDylfvjVZOzy55KDcjJl7xsHqyW%2FEohmeW6eQ%2FbD28Fctx5hWMBRT0UpTfCFLvemUM81YP049o5GutSkfJRB5aYs5ifrMHnJqgnFtBdt7OmGglfNXhmCD8KiW%2F%2Bz2yjX4auO7Ulan2K8O%2BhY1x9El5FLDGinIFVr9PbUFSAXF2TYu4q7Y%2FCOMUCVhA5EYQR9qfc09h2xlmMlV00koIkTrnClANAstKIuG4CAbN9bHCKuPFu%2BMwWTUSauB6hSHnUIw%3D%3D HTTP/1.1" 200 0
+2021-10-15 13:50:56,799 INFO    Thread-11 :19749 [upload_job.py:push():112] Uploaded file wandb/run-20211015_135029-2anfhvz9/files/config.yaml
+2021-10-15 13:50:56,847 DEBUG   Thread-12 :19749 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/requirements.txt?Expires=1634372455&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=asZWuAtRumwEszKnCfFc54nLIltKkOVJuo8VSQ8XBrKpczZYPedh%2FVpONRwYg2zZ2OcpEfFb6Psg68ijPICb6AWtuC6dcOVchy0ypnpfjktEgm3cliHf8VbhH0onC%2BnjJKYftUIYLIQuoichQTw5ARXjwF%2BdWlB8Qp%2B3PXiGKBaRcpRkzKnRLUwpl04Vr9l41nZBsR6yEkFOcfJFRndaQ5OmS5sutEsPs%2BJ4l6HvWj0fyNb9p3N%2FIKoYMucicKtho%2BJoInSaUdCpJ2CNsb1B2S3GiSNzg%2BRdqcv17LFKm4UVd%2BAhz9eIWL7ENT%2FlyZPU6DQyHq6bblFUexqUaILYIQ%3D%3D HTTP/1.1" 200 0
+2021-10-15 13:50:56,849 INFO    Thread-12 :19749 [upload_job.py:push():112] Uploaded file wandb/run-20211015_135029-2anfhvz9/files/requirements.txt
+2021-10-15 13:50:56,888 DEBUG   Thread-13 :19749 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/output.log?Expires=1634372455&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=hdAA8lpC5AOIwIxPKvAcHuDyWPcipb03FZ7E195lUzjZpuRTAFgTPJw3NAl0aVhlGgygFn6zqd%2FfnNobjcnTN9tes6k7eiVbv8mgDLaUoU2EbXmxv3MnJzRuTmZHjoGujGTNSly6dkQ04v6es0MVhH%2FdJoxjr3I1aeShQIxKlXeqEWCAztUyTH6dS2Q9FkfKLjC4rROYIf8xEgGWdJ9QfnQUYHmrhCbLXXGUUwpdzbtLraqcghoHFPfC2lZKUlkKyYOhnmy1rKOiRH7Nyj6YUljPHhAtfFFdIGgruLljCtQ9PEelt8srCTirvkS8uabg9kqrUS3vm4eQIgg74%2BwUcA%3D%3D HTTP/1.1" 200 0
+2021-10-15 13:50:56,890 INFO    Thread-13 :19749 [upload_job.py:push():112] Uploaded file wandb/run-20211015_135029-2anfhvz9/files/output.log
+2021-10-15 13:50:57,622 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:57,928 DEBUG   Thread-4  :19749 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/ranuga-d/Microcontroller-Detection-Learning-Detectron2/2anfhvz9/file_stream HTTP/1.1" 200 None
+2021-10-15 13:50:57,930 INFO    MainThread:19749 [internal.py:handle_exit():137] Internal process exited
