@@ -220,7 +220,7 @@ smmap==4.0.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
 soupsieve==2.2.1
-streamlit==0.88.0
+streamlit==1.11.1
 stripe==2.60.0
 subprocess32==3.5.4
 tabulate==0.8.9
