@@ -254,7 +254,7 @@ typed-ast==1.4.3
 typing-extensions==3.10.0.2
 tzlocal==3.0
 universal-analytics-python3==1.1.1
-urllib3==1.26.0
+urllib3==1.26.5
 validators==0.18.2
 virtualenv==20.4.7
 voxel51-eta==0.5.3
