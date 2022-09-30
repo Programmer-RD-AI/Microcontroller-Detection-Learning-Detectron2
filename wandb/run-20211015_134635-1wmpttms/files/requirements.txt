@@ -99,7 +99,7 @@ itsdangerous==2.0.1
 jedi==0.18.0
 jinja2==3.0.2
 jmespath==0.10.0
-joblib==1.0.1
+joblib==1.2.0
 json5==0.9.5
 jsonschema==4.1.0
 jupyter-client==7.0.6
