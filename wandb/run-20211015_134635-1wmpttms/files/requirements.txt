@@ -162,7 +162,7 @@ patool==1.12
 pexpect==4.8.0
 phonenumbers==8.12.28
 pickleshare==0.7.5
-pillow==8.3.2
+pillow==9.3.0
 pip==21.2.4
 platformdirs==2.3.0
 plotly==4.14.3
